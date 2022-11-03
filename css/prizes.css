@@ -1,0 +1,45 @@
+/* 
+    Created on : Jun 18, 2019
+    Author     : liisa auer
+*/
+main {
+    padding: 2em;
+    font-family: verdana;
+}
+
+section {
+    display: inline-block;
+    width: 15em;
+    vertical-align: top;
+    margin-right: 1em;
+}
+div {
+    margin-bottom: 1em;
+}
+
+ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+li {
+    line-height: 1.5em;
+    padding-left: 10px;
+}
+
+#prizes li:nth-child(even) {
+    background-color: lightgray;
+}
+
+#persons li:nth-child(odd) {
+    background-color: lightblue;
+}
+
+#personAndPrize li:nth-child(even) {
+    background-color: lightgreen;
+}
+
+#personError, 
+#prizeError {
+    color: red;
+}
